@@ -49,7 +49,7 @@ to convert the dictionary returned from PyJAGS to an ArviZ InferenceData object.
 This object can be used in ArviZ to generate trace plots and compute diagnostics.  
 Trace plot:
 <pre>
-az.plot_trace(idata)
+az.plot_trace(idata);
 </pre>
 
 Effective sample size:
@@ -60,4 +60,9 @@ az.ess(idata)
 Gelman and Rubin statistic:
 <pre>
 az.rhat(idata)
+</pre>
+
+Autocorrelation plot:
+<pre>
+az.plot_autocorr(idata);
 </pre>
