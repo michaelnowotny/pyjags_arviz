@@ -1,5 +1,8 @@
-# pyjags_arviz
+# PyJAGS-ArviZ
 Makes MCMC samples from PyJAGS usable in ArviZ
+
+## Deprecated
+The functionality of this project has been added to [PyJAGS](https://github.com/michaelnowotny/pyjags) itself. PyJAGS_ArviZ is no longer maintained.
 
 ## Table of Contents
 
