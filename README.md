@@ -2,7 +2,9 @@
 Makes MCMC samples from PyJAGS usable in ArviZ
 
 ## Deprecated
-The functionality of this project has been added to [PyJAGS](https://github.com/michaelnowotny/pyjags) itself. PyJAGS_ArviZ is no longer maintained.
+The functionality of this project has been moved to [ArviZ](https://github.com/arviz-devs/arviz). 
+The function `convert_pyjags_samples_dict_to_arviz_inference_data` has been renamed to `from_pyjags`. 
+PyJAGS_ArviZ is no longer maintained.
 
 ## Table of Contents
 
